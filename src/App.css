@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: teal;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  transition: transform 0.5s;
+  transform: translateY(50%);
+  color: black;
+}
+
+.list-group {
+  width: 100%;
+}
