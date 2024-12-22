@@ -28,7 +28,7 @@ export const postsApi = createApi({
         fetchPosts: builder.query<any, void>({
             query: () => ({ url: '/posts' }),  
         }),
-        addPost: builder.mutation<any, { title: string; body: string; userId: number }>({
+        addPost: builder.mutation<any, { title: string; completed: boolean; userId: number }>({
             query: (newPost) => ({
                 url: '/posts',
                 method: 'POST',

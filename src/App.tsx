@@ -6,7 +6,7 @@ const App: React.FC = () => {
   return (
     <div>
       <h1>Posts</h1>
-      <AddPostForm />
+      {/* <AddPostForm /> */}
       <PostsList />
     </div>
   );
